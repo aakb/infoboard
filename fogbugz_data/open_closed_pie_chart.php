@@ -44,11 +44,11 @@ header ("Content-Type:text/xml");
   <item>
     <value><?php print $closed_tickets; ?></value>
     <label>Closed cases</label>
-    <colour>FFFF10AA</colour>
+    <colour>D30000AA</colour>
   </item>
   <item>
     <value><?php print $open_active_tickets; ?></value>
     <label>Open cases</label>
-    <colour>FFFF10AA</colour>
+    <colour>0DB600AA</colour>
   </item>
 </root>
