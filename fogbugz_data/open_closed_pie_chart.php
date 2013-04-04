@@ -36,19 +36,19 @@ foreach($feed->get_items() as $item) {
   $open_active_tickets++;
 }
 
-header ("Content-Type:text/xml"); 
+header ("Content-Type:text/xml");
 
 ?>
 
 <root>
   <item>
     <value><?php print $closed_tickets; ?></value>
-    <label>Closed cases</label>
+    <label>Closed cases (<?php print $closed_tickets; ?>)</label>
     <colour>D30000AA</colour>
   </item>
   <item>
     <value><?php print $open_active_tickets; ?></value>
-    <label>Open cases</label>
+    <label>Open cases (<?php print $open_active_tickets; ?>)</label>
     <colour>0DB600AA</colour>
   </item>
 </root>
