@@ -1,6 +1,4 @@
 <?php
-header ("Content-Type:text/xml; charset=utf-8");
-
 
 require('../lib/fogbugz_api.php'); // Require the FogBugz API Class
 require('config.php'); // Require the FogBugz config and initializer
@@ -45,6 +43,7 @@ foreach ($xml->cases->case as $case) {
 }
 $hours_invoiced_forever_cases = $xml->cases['count'];
 
+header ("Content-Type:text/xml");
 ?>
 
 <root>
