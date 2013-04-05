@@ -49,17 +49,17 @@ header ("Content-Type:text/xml");
 <root>
   <item>
     <value><?php print $hours_to_invoice; ?></value>
-    <label><?php print $hours_to_invoice; ?> hours to invoice (cases: <?php print $hours_to_invoice_cases ?>)</label>
+    <label><?php print $hours_to_invoice; ?> hours to invoice (cases <?php print $hours_to_invoice_cases ?>)</label>
     <colour>549B00AA</colour>
   </item>
   <item>
     <value><?php print $hours_invoiced; ?></value>
-    <label><?php print $hours_invoiced; ?> hours to invoice (cases: <?php print $hours_invoiced_cases ?>)</label>
+    <label><?php print $hours_invoiced; ?> hours to invoice (cases <?php print $hours_invoiced_cases ?>)</label>
     <colour>C79101AA</colour>
   </item>
   <item>
     <value><?php print $hours_invoiced_forever; ?></value>
-    <label><?php print $hours_invoiced_forever; ?> hours to invoice (cases: <?php print $hours_invoiced_forever_cases ?>)</label>
+    <label><?php print $hours_invoiced_forever; ?> hours to invoice (cases <?php print $hours_invoiced_forever_cases ?>)</label>
     <colour>6C01C7AA</colour>
   </item>
 </root>
