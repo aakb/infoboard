@@ -32,7 +32,7 @@ $hours_invoiced_cases = $xml->cases['count'];
 
 
 // Fetch all cases marked as invoiced forever.
-$xml = $fb->search(array(
+/*$xml = $fb->search(array(
     'q' => 'faktureret:"true"',
     'cols' => $cols
 ));
@@ -41,7 +41,7 @@ $hours_invoiced_forever = 0;
 foreach ($xml->cases->case as $case) {
   $hours_invoiced_forever = $hours_invoiced_forever + $case->hrsElapsed;
 }
-$hours_invoiced_forever_cases = $xml->cases['count'];
+$hours_invoiced_forever_cases = $xml->cases['count'];*/
 
 header ("Content-Type:text/xml");
 ?>
@@ -54,12 +54,7 @@ header ("Content-Type:text/xml");
   </item>
   <item>
     <value><?php print $hours_invoiced; ?></value>
-    <label><?php print $hours_invoiced; ?> hours to invoice (cases <?php print $hours_invoiced_cases ?>)</label>
+    <label><?php print $hours_invoiced; ?> hours invoiced (cases <?php print $hours_invoiced_cases ?>)</label>
     <colour>C79101AA</colour>
-  </item>
-  <item>
-    <value><?php print $hours_invoiced_forever; ?></value>
-    <label><?php print $hours_invoiced_forever; ?> hours to invoice (cases <?php print $hours_invoiced_forever_cases ?>)</label>
-    <colour>6C01C7AA</colour>
   </item>
 </root>
