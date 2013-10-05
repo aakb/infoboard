@@ -17,7 +17,8 @@ var urls = {
 };
 
 var pointer = 0;
-var delay = 100000;
+//var delay = 100000;
+var delay = 10000;
 
 function objectLength(obj) {
   var result = 0;
