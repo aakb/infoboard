@@ -10,10 +10,10 @@ var urls = {
   ],
   3: [
     {"url": "https://github.com/organizations/aakb"}
-  ]
-  /*4: [
+  ],
+  4: [
     {"url": "http://visibletweets.com/#query=from%3Azorp%20OR%20from%3Amagnify%20OR%20from%3Acableman%20OR%20from%3Afristed&animation=2"}
-  ]*/
+  ]
 };
 
 var pointer = 0;
