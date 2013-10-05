@@ -6,14 +6,14 @@ var urls = {
     {"url": "https://itkdesign.geckoboard.com/dashboards/B0DDF77F2C98F67C/"}
   ],
   2: [
-    {"url": "http://visibletweets.com/#query=drupal%2Cdrupalcon&animation=2"}
-  ],
-  3: [
     {"url": "https://github.com/organizations/aakb"}
   ],
-  4: [
-    {"url": "http://visibletweets.com/#query=from%3Azorp%20OR%20from%3Amagnify%20OR%20from%3Acableman%20OR%20from%3Afristed&animation=2"}
+  3: [
+    {"url": "http://twistori.com/#i_believe"}
   ]
+  /*4: [
+    {"url": "http://visibletweets.com/#query=drupal%2Cdrupalcon&animation=2"}
+  ],*/
 };
 
 var pointer = 0;
