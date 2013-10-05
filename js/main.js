@@ -1,23 +1,23 @@
 var urls = {
   0: [
-    {"url": "http://newsmap.jp/#/b,e,m,n,s,t,w/uk/view/"}
+    {"url": "http://newsmap.jp/#/b,e,m,n,s,t,w/uk,us/search/all/technology/"}
   ],
   1: [
-    {"url": "https://itkdesign.geckoboard.com/dashboard/B0DDF77F2C98F67C/"}
+    {"url": "https://itkdesign.geckoboard.com/dashboards/B0DDF77F2C98F67C/"}
   ],
   2: [
-    {"url": "http://visibletweets.com/#query=%23drupal%20lang%3Ada&animation=1"}
+    {"url": "http://visibletweets.com/#query=drupal%2Cdrupalcon&animation=2"}
   ],
   3: [
     {"url": "https://github.com/organizations/aakb"}
-  ],
-  4: [
-    {"url": "http://visibletweets.com/#query=from%3Azorp%20OR%20from%3Amagnify%20OR%20from%3Acableman%20OR%20from%3Afristed&animation=2"}
   ]
+  /*4: [
+    {"url": "http://visibletweets.com/#query=from%3Azorp%20OR%20from%3Amagnify%20OR%20from%3Acableman%20OR%20from%3Afristed&animation=2"}
+  ]*/
 };
 
 var pointer = 0;
-var delay = 120000;
+var delay = 100000;
 
 function objectLength(obj) {
   var result = 0;
