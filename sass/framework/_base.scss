@@ -1,5 +1,5 @@
 body {
-  color: #000;
+  color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   background-color: #c6c6c6;
   font-size: 20px;
@@ -28,6 +28,7 @@ iframe#viewer {
 }
 
 .container {
+  @include zen-grid-container;
   margin: 40px;
 }
 
@@ -40,39 +41,11 @@ h1.inverted {
 }
 
 .primary-content {
-  float: left;
-  width: 75%;
+  @include zen-grid-item(8, 1);
+  padding-left: 0;
 }
 
 .secondary-content {
-  float: left;
-  width: 25%;
-}
-
-.green-bg {
-  background-color: #007529;
-}
-
-.blue-bg {
-  background-color: #015ec7;
-}
-
-.purple-bg {
-  background-color: #6f52a3;
-}
-
-.brown-bg {
-  background-color: #cf581e;
-}
-
-.bordeaux-bg {
-  background-color: #881444;
-}
-
-.orange-bg {
-  background-color: orange;
-}
-
-.red-bg {
-  background-color: red;
+  @include zen-grid-item(4, 1, right);
+  padding-right: 0;
 }

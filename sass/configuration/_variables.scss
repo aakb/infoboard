@@ -1,5 +1,40 @@
 /*
  * Variables
- */
+*/
 
- 
+/* Zen Grid variables
+   ========================================================================== */
+
+$zen-column-count: 12;
+$zen-gutter-width: 20px;
+$box-sizing-polyfill-path: "/js/boxsizing.htc";
+
+// Alert colors
+$green: #1d741f;
+$yellow: #ffb03a;
+$red: #ff061b;
+
+// Greytones
+$black: #000;
+$white: #fff;
+$dark-grey: #2a2a2a;
+$grey: #404040;
+$light-grey: #c6c6c6;
+
+
+// Project bg colors
+$project-1-bg-color: #15a334; //Green
+$project-2-bg-color: darken($project-1-bg-color, 5%);
+$project-3-bg-color: darken($project-1-bg-color, 10%);
+$project-4-bg-color: darken($project-1-bg-color, 15%);
+$project-5-bg-color: darken($project-1-bg-color, 20%);
+$project-6-bg-color: darken($project-1-bg-color, 25%);
+$project-7-bg-color: darken($project-1-bg-color, 30%);
+$project-8-bg-color: darken($project-1-bg-color, 35%);
+
+// Person bg colors
+$rasmus-bg-color: #004979;
+$thomas-bg-color: #ff762a;
+$jesper-bg-color: #f20a15;
+$brian-bg-color: #351d92;
+$martin-bg-color: #005f68;

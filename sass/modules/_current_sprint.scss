@@ -2,26 +2,49 @@
  * Current sprint document
  */
 
- .resource-box,
- .focus-projects {
-  background-color:  #404040;
+.infobox {
+  background-color:  $grey;
   padding: 10px;
-  color: #fff;
+  color: $white;
   text-align: right;
   margin-bottom: 20px;
- }
-
-.sprint-meta-data li {
-  margin-bottom: 20px;
 }
- 
- .sprint-meta-data ul li {
-  display: inline;
- }
 
- .meta-label {
-  background-color: #000;
+.meta-label {
+  background-color: $black;
+  color: $light-grey;
   padding: 4px;
-  margin-bottom: 5px;
-  display: block;
- }
+  margin-bottom: 10px;
+}
+
+.primary-content {
+  .meta-label {
+    font-size: 150%;
+  }
+}
+
+.item-list {
+  li {
+    display: inline-block;
+    padding: 2px 5px 2px 5px;
+    margin-bottom: 5px;
+  }
+}
+
+.project-diagram {
+  .project-name {
+    clear: both;
+    float: left;
+    height: 50px;
+    font-size: 150%;
+    min-width: 225px;
+    line-height: 50px;
+    padding-left: 10px;
+    border-right: 4px solid $light-grey;
+  }
+  .progress {
+    float: left;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+}

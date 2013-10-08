@@ -65,10 +65,95 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /*
  * Variables
- */
+*/
+/* Zen Grid variables
+   ========================================================================== */
+/*
+ * Colors
+*/
+/* line 6, ../sass/framework/_colors.scss */
+.green-label {
+  background-color: #1d741f;
+}
+
+/* line 9, ../sass/framework/_colors.scss */
+.yellow-label {
+  background-color: #ffb03a;
+}
+
+/* line 12, ../sass/framework/_colors.scss */
+.red-label {
+  background-color: #ff061b;
+}
+
+/* line 17, ../sass/framework/_colors.scss */
+.rasmus-label {
+  background-color: #004979;
+}
+
+/* line 20, ../sass/framework/_colors.scss */
+.thomas-label {
+  background-color: #ff762a;
+}
+
+/* line 23, ../sass/framework/_colors.scss */
+.jesper-label {
+  background-color: #f20a15;
+}
+
+/* line 26, ../sass/framework/_colors.scss */
+.brian-label {
+  background-color: #351d92;
+}
+
+/* line 29, ../sass/framework/_colors.scss */
+.martin-label {
+  background-color: #005f68;
+}
+
+/* line 34, ../sass/framework/_colors.scss */
+.project-label-1 {
+  background-color: #15a334;
+}
+
+/* line 37, ../sass/framework/_colors.scss */
+.project-label-2 {
+  background-color: #128c2d;
+}
+
+/* line 40, ../sass/framework/_colors.scss */
+.project-label-3 {
+  background-color: #0f7626;
+}
+
+/* line 43, ../sass/framework/_colors.scss */
+.project-label-4 {
+  background-color: #0c5f1e;
+}
+
+/* line 46, ../sass/framework/_colors.scss */
+.project-label-5 {
+  background-color: #094917;
+}
+
+/* line 49, ../sass/framework/_colors.scss */
+.project-label-6 {
+  background-color: #063210;
+}
+
+/* line 52, ../sass/framework/_colors.scss */
+.project-label-7 {
+  background-color: #041b09;
+}
+
+/* line 55, ../sass/framework/_colors.scss */
+.project-label-8 {
+  background-color: #010502;
+}
+
 /* line 1, ../sass/framework/_base.scss */
 body {
-  color: #000;
+  color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   background-color: #c6c6c6;
   font-size: 20px;
@@ -101,10 +186,21 @@ iframe#viewer {
 
 /* line 30, ../sass/framework/_base.scss */
 .container {
+  *position: relative;
+  *zoom: 1;
   margin: 40px;
 }
+/* line 46, ../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.container:before, .container:after {
+  content: "";
+  display: table;
+}
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.container:after {
+  clear: both;
+}
 
-/* line 34, ../sass/framework/_base.scss */
+/* line 35, ../sass/framework/_base.scss */
 h1.inverted {
   background-color: #000;
   color: #c6c6c6;
@@ -113,51 +209,44 @@ h1.inverted {
   margin-bottom: 20px;
 }
 
-/* line 42, ../sass/framework/_base.scss */
+/* line 43, ../sass/framework/_base.scss */
 .primary-content {
   float: left;
-  width: 75%;
+  width: 66.66667%;
+  margin-left: 0%;
+  margin-right: -66.66667%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  *behavior: url("/js/boxsizing.htc");
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  padding-left: 0;
 }
 
-/* line 47, ../sass/framework/_base.scss */
+/* line 48, ../sass/framework/_base.scss */
 .secondary-content {
-  float: left;
-  width: 25%;
-}
-
-/* line 52, ../sass/framework/_base.scss */
-.green-bg {
-  background-color: #007529;
-}
-
-/* line 56, ../sass/framework/_base.scss */
-.blue-bg {
-  background-color: #015ec7;
-}
-
-/* line 60, ../sass/framework/_base.scss */
-.purple-bg {
-  background-color: #6f52a3;
-}
-
-/* line 64, ../sass/framework/_base.scss */
-.brown-bg {
-  background-color: #cf581e;
-}
-
-/* line 68, ../sass/framework/_base.scss */
-.bordeaux-bg {
-  background-color: #881444;
-}
-
-/* line 72, ../sass/framework/_base.scss */
-.orange-bg {
-  background-color: orange;
-}
-
-/* line 76, ../sass/framework/_base.scss */
-.red-bg {
-  background-color: red;
+  float: right;
+  width: 33.33333%;
+  margin-right: 0%;
+  margin-left: -33.33333%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  *behavior: url("/js/boxsizing.htc");
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  padding-right: 0;
 }
 
 /*
@@ -168,7 +257,7 @@ h1.inverted {
   padding: 0;
   margin-top: 50px;
   width: 100%;
-  color: #fff;
+  color: white;
 }
 /* line 12, ../sass/modules/_important_dates.scss */
 .calendar td,
@@ -181,7 +270,7 @@ h1.inverted {
 .calendar th.heading {
   font-size: 60px;
   color: #c6c6c6;
-  background-color: #000;
+  background-color: black;
   border-bottom: 2px solid #c6c6c6;
 }
 /* line 24, ../sass/modules/_important_dates.scss */
@@ -196,30 +285,49 @@ h1.inverted {
 /*
  * Current sprint document
  */
-/* line 6, ../sass/modules/_current_sprint.scss */
-.resource-box,
-.focus-projects {
+/* line 5, ../sass/modules/_current_sprint.scss */
+.infobox {
   background-color: #404040;
   padding: 10px;
-  color: #fff;
+  color: white;
   text-align: right;
   margin-bottom: 20px;
 }
 
-/* line 14, ../sass/modules/_current_sprint.scss */
-.sprint-meta-data li {
-  margin-bottom: 20px;
-}
-
-/* line 18, ../sass/modules/_current_sprint.scss */
-.sprint-meta-data ul li {
-  display: inline;
-}
-
-/* line 22, ../sass/modules/_current_sprint.scss */
+/* line 13, ../sass/modules/_current_sprint.scss */
 .meta-label {
-  background-color: #000;
+  background-color: black;
+  color: #c6c6c6;
   padding: 4px;
+  margin-bottom: 10px;
+}
+
+/* line 21, ../sass/modules/_current_sprint.scss */
+.primary-content .meta-label {
+  font-size: 150%;
+}
+
+/* line 27, ../sass/modules/_current_sprint.scss */
+.item-list li {
+  display: inline-block;
+  padding: 2px 5px 2px 5px;
   margin-bottom: 5px;
-  display: block;
+}
+
+/* line 35, ../sass/modules/_current_sprint.scss */
+.project-diagram .project-name {
+  clear: both;
+  float: left;
+  height: 50px;
+  font-size: 150%;
+  min-width: 225px;
+  line-height: 50px;
+  padding-left: 10px;
+  border-right: 4px solid #c6c6c6;
+}
+/* line 45, ../sass/modules/_current_sprint.scss */
+.project-diagram .progress {
+  float: left;
+  height: 50px;
+  margin-bottom: 10px;
 }

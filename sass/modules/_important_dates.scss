@@ -6,7 +6,7 @@
   padding: 0;
   margin-top: 50px;
   width: 100%;
-  color: #fff;
+  color: $white;
 
   td,
   th {
@@ -15,16 +15,16 @@
 
     &.heading {
       font-size: 60px;
-      color: #c6c6c6;
-      background-color: #000;
-      border-bottom: 2px solid #c6c6c6
+      color: $light-grey;
+      background-color: $black;
+      border-bottom: 2px solid $light-grey;
     }
   }
 
   .odd {
-    background-color:#2a2a2a;
+    background-color: $dark-grey;
   }
   .even {
-    background-color:#404040;
+    background-color: $grey;
   }
 }
