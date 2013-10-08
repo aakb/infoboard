@@ -1,16 +1,16 @@
 var urls = {
   0: [
-    {"url": "http://newsmap.jp/#/b,e,m,n,s,t,w/uk,us/search/all/technology/"}
+    {"url": "http://newsmap.jp/#/b,e,m,n,s,t,w/uk,us/search/all/technology"}
   ],
   1: [
-    {"url": "https://itkdesign.geckoboard.com/dashboards/B0DDF77F2C98F67C/"}
+    {"url": "https://itkdesign.geckoboard.com/dashboards/B0DDF77F2C98F67C"}
   ],
   2: [
-    {"url": "http://www.axiis.org/examples/BrowserMarketShare.html"}
+    {"url": "http://geckoboard.etek.dk/statis_pages/important_dates.html"}
   ],
   3: [
     {"url": "http://twistori.com/#i_believe"}
-  ]
+  ],
   /*4: [
     {"url": "http://visibletweets.com/#query=drupal%2Cdrupalcon&animation=2"}
   ],*/

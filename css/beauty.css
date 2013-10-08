@@ -1,0 +1,40 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  margin: 40px;
+}
+
+h1.inverted {
+  background-color: #000;
+  color: #fff;
+  padding: 2px;
+  font-size: 100px;
+}
+
+table.calendar {
+  padding: 0;
+  margin-top: 50px;
+  width: 100%;
+}
+
+table.calendar td,
+table.calendar th {
+  padding: 10px 4px 4px 4px;
+  font-size: 24px;
+}
+
+table.calendar th.heading {
+  padding-top: 20px;
+  font-size: 40px;
+  color: #666;
+  border-bottom: 2px dashed #666
+}
+
+table.calendar .odd {
+  background-color:#f7fbb2;
+}
+table.calendar .even {
+  background-color:#e3e7a3;
+}
