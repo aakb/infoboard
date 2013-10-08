@@ -1,19 +1,18 @@
 var urls = {
   0: [
-    {"url": "http://newsmap.jp/#/b,e,m,n,s,t,w/uk,us/search/all/technology"}
-  ],
-  1: [
     {"url": "https://itkdesign.geckoboard.com/dashboards/B0DDF77F2C98F67C"}
   ],
-  2: [
+  1: [
     {"url": "http://geckoboard.etek.dk/static_pages/important_dates.html"}
   ],
-  3: [
+  2: [
     {"url": "http://twistori.com/#i_believe"}
   ],
-  /*4: [
-    {"url": "http://visibletweets.com/#query=drupal%2Cdrupalcon&animation=2"}
-  ],*/
+  /*
+  Discarded URLs
+  http://newsmap.jp/#/b,e,m,n,s,t,w/uk,us/search/all/technology
+  http://visibletweets.com/#query=drupal%2Cdrupalcon&animation=2
+  */
 };
 
 var pointer = 0;
