@@ -11,7 +11,7 @@ $box-sizing-polyfill-path: "/js/boxsizing.htc";
 
 // Alert colors
 $green: #1d741f;
-$yellow: #ffb03a;
+$yellow: #ff6227;
 $red: #ff061b;
 
 // Greytones
@@ -31,6 +31,13 @@ $project-5-bg-color: darken($project-1-bg-color, 20%);
 $project-6-bg-color: darken($project-1-bg-color, 25%);
 $project-7-bg-color: darken($project-1-bg-color, 30%);
 $project-8-bg-color: darken($project-1-bg-color, 35%);
+
+// Secondary project bg colors
+$sec-project-1-bg-color: #175543; //Darker green
+$sec-project-2-bg-color: darken($sec-project-1-bg-color, 5%);
+$sec-project-3-bg-color: darken($sec-project-1-bg-color, 10%);
+$sec-project-4-bg-color: darken($sec-project-1-bg-color, 15%);
+$sec-project-5-bg-color: darken($sec-project-1-bg-color, 20%);
 
 // Person bg colors
 $rasmus-bg-color: #004979;

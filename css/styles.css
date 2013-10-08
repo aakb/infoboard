@@ -78,7 +78,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 9, ../sass/framework/_colors.scss */
 .yellow-label {
-  background-color: #ffb03a;
+  background-color: #ff6227;
 }
 
 /* line 12, ../sass/framework/_colors.scss */
@@ -149,6 +149,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 55, ../sass/framework/_colors.scss */
 .project-label-8 {
   background-color: #010502;
+}
+
+/* line 59, ../sass/framework/_colors.scss */
+.sec-project-label-1 {
+  background-color: #175543;
+}
+
+/* line 62, ../sass/framework/_colors.scss */
+.sec-project-label-2 {
+  background-color: #124133;
+}
+
+/* line 65, ../sass/framework/_colors.scss */
+.sec-project-label-3 {
+  background-color: #0c2d23;
+}
+
+/* line 68, ../sass/framework/_colors.scss */
+.sec-project-label-4 {
+  background-color: #071914;
+}
+
+/* line 71, ../sass/framework/_colors.scss */
+.sec-project-label-5 {
+  background-color: #010504;
 }
 
 /* line 1, ../sass/framework/_base.scss */
@@ -296,25 +321,26 @@ h1.inverted {
 
 /* line 13, ../sass/modules/_current_sprint.scss */
 .meta-label {
+  clear: both;
   background-color: black;
   color: #c6c6c6;
   padding: 4px;
   margin-bottom: 10px;
 }
 
-/* line 21, ../sass/modules/_current_sprint.scss */
+/* line 22, ../sass/modules/_current_sprint.scss */
 .primary-content .meta-label {
   font-size: 150%;
 }
 
-/* line 27, ../sass/modules/_current_sprint.scss */
+/* line 28, ../sass/modules/_current_sprint.scss */
 .item-list li {
   display: inline-block;
   padding: 2px 5px 2px 5px;
   margin-bottom: 5px;
 }
 
-/* line 35, ../sass/modules/_current_sprint.scss */
+/* line 36, ../sass/modules/_current_sprint.scss */
 .project-diagram .project-name {
   clear: both;
   float: left;
@@ -325,9 +351,13 @@ h1.inverted {
   padding-left: 10px;
   border-right: 4px solid #c6c6c6;
 }
-/* line 45, ../sass/modules/_current_sprint.scss */
+/* line 46, ../sass/modules/_current_sprint.scss */
 .project-diagram .progress {
   float: left;
   height: 50px;
   margin-bottom: 10px;
+}
+/* line 52, ../sass/modules/_current_sprint.scss */
+.project-diagram .last {
+  margin-bottom: 40px;
 }

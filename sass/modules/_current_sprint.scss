@@ -11,6 +11,7 @@
 }
 
 .meta-label {
+  clear: both;
   background-color: $black;
   color: $light-grey;
   padding: 4px;
@@ -46,5 +47,9 @@
     float: left;
     height: 50px;
     margin-bottom: 10px;
+  }
+
+  .last {
+    margin-bottom: 40px;
   }
 }
