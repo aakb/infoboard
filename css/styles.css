@@ -1,0 +1,225 @@
+/* line 17, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+ * Variables
+ */
+/* line 1, ../sass/framework/_base.scss */
+body {
+  color: #000;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #c6c6c6;
+  font-size: 20px;
+}
+
+/* line 8, ../sass/framework/_base.scss */
+body, iframe {
+  height: 100%;
+}
+
+/* line 12, ../sass/framework/_base.scss */
+iframe#viewer {
+  display: block;
+  width: 100%;
+  border: none;
+}
+
+/* line 19, ../sass/framework/_base.scss */
+#progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 0px;
+  height: 1%;
+  background-color: #98BE31;
+  /*#EF2876;*/
+  opacity: 0.8;
+}
+
+/* line 30, ../sass/framework/_base.scss */
+.container {
+  margin: 40px;
+}
+
+/* line 34, ../sass/framework/_base.scss */
+h1.inverted {
+  background-color: #000;
+  color: #c6c6c6;
+  padding: 5px;
+  font-size: 120px;
+  margin-bottom: 20px;
+}
+
+/* line 42, ../sass/framework/_base.scss */
+.primary-content {
+  float: left;
+  width: 75%;
+}
+
+/* line 47, ../sass/framework/_base.scss */
+.secondary-content {
+  float: left;
+  width: 25%;
+}
+
+/* line 52, ../sass/framework/_base.scss */
+.green-bg {
+  background-color: #007529;
+}
+
+/* line 56, ../sass/framework/_base.scss */
+.blue-bg {
+  background-color: #015ec7;
+}
+
+/* line 60, ../sass/framework/_base.scss */
+.purple-bg {
+  background-color: #6f52a3;
+}
+
+/* line 64, ../sass/framework/_base.scss */
+.brown-bg {
+  background-color: #cf581e;
+}
+
+/* line 68, ../sass/framework/_base.scss */
+.bordeaux-bg {
+  background-color: #881444;
+}
+
+/* line 72, ../sass/framework/_base.scss */
+.orange-bg {
+  background-color: orange;
+}
+
+/* line 76, ../sass/framework/_base.scss */
+.red-bg {
+  background-color: red;
+}
+
+/*
+ * Important dates document
+ */
+/* line 5, ../sass/modules/_important_dates.scss */
+.calendar {
+  padding: 0;
+  margin-top: 50px;
+  width: 100%;
+  color: #fff;
+}
+/* line 12, ../sass/modules/_important_dates.scss */
+.calendar td,
+.calendar th {
+  padding: 10px 5px 10px 5px;
+  font-size: 40px;
+}
+/* line 16, ../sass/modules/_important_dates.scss */
+.calendar td.heading,
+.calendar th.heading {
+  font-size: 60px;
+  color: #c6c6c6;
+  background-color: #000;
+  border-bottom: 2px solid #c6c6c6;
+}
+/* line 24, ../sass/modules/_important_dates.scss */
+.calendar .odd {
+  background-color: #2a2a2a;
+}
+/* line 27, ../sass/modules/_important_dates.scss */
+.calendar .even {
+  background-color: #404040;
+}
+
+/*
+ * Current sprint document
+ */
+/* line 6, ../sass/modules/_current_sprint.scss */
+.resource-box,
+.focus-projects {
+  background-color: #404040;
+  padding: 10px;
+  color: #fff;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+/* line 14, ../sass/modules/_current_sprint.scss */
+.sprint-meta-data li {
+  margin-bottom: 20px;
+}
+
+/* line 18, ../sass/modules/_current_sprint.scss */
+.sprint-meta-data ul li {
+  display: inline;
+}
+
+/* line 22, ../sass/modules/_current_sprint.scss */
+.meta-label {
+  background-color: #000;
+  padding: 4px;
+  margin-bottom: 5px;
+  display: block;
+}

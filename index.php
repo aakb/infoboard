@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width">
     <!-- <link rel="shortcut icon" href="http://aakb.dk/favicon.ico"> -->
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="js/vendor/modernizr-2.5.3.min.js"></script>
 </head>
 <body>

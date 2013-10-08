@@ -1,0 +1,78 @@
+body {
+  color: #000;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #c6c6c6;
+  font-size: 20px;
+}
+
+body, iframe {
+  height: 100%;
+}
+
+iframe#viewer {
+  display:block; 
+  width:100%; 
+  border:none;
+}
+
+// Progress indicator at top of rotator page
+#progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 0px;
+  height: 1%;
+  background-color: #98BE31; /*#EF2876;*/
+  opacity: 0.8;
+}
+
+.container {
+  margin: 40px;
+}
+
+h1.inverted {
+  background-color: #000;
+  color: #c6c6c6;
+  padding: 5px;
+  font-size: 120px;
+  margin-bottom: 20px;
+}
+
+.primary-content {
+  float: left;
+  width: 75%;
+}
+
+.secondary-content {
+  float: left;
+  width: 25%;
+}
+
+.green-bg {
+  background-color: #007529;
+}
+
+.blue-bg {
+  background-color: #015ec7;
+}
+
+.purple-bg {
+  background-color: #6f52a3;
+}
+
+.brown-bg {
+  background-color: #cf581e;
+}
+
+.bordeaux-bg {
+  background-color: #881444;
+}
+
+.orange-bg {
+  background-color: orange;
+}
+
+.red-bg {
+  background-color: red;
+}
