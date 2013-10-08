@@ -6,12 +6,13 @@ var urls = {
     {"url": "http://geckoboard.etek.dk/static_pages/important_dates.html"}
   ],
   2: [
-    {"url": "http://twistori.com/#i_believe"}
+    {"url": "http://geckoboard.etek.dk/static_pages/current_sprint.html"}
   ],
   /*
   Discarded URLs
   http://newsmap.jp/#/b,e,m,n,s,t,w/uk,us/search/all/technology
   http://visibletweets.com/#query=drupal%2Cdrupalcon&animation=2
+  http://twistori.com/#i_believe
   */
 };
 
@@ -30,17 +31,17 @@ function objectLength(obj) {
   return result;
 }
 
-function changeUrl() { 
+function changeUrl() {
   
-  items = objectLength(urls);
-  url = urls[pointer][0].url;
+  var items = objectLength(urls);
+  var url = urls[pointer][0].url;
   $('iframe#viewer').attr('src', url);
 
 	// animate the progress bar
 	$('#progress').stop(true,true);
 	$('#progress').css('width','0px');
 	//$('#progress').delay(1).animate({width: '0%'}, 99, 'swing'); 
-  $('#progress').animate({width: '100%'}, delay, 'easeInSine');  
+  $('#progress').animate({width: '100%'}, delay, 'easeInSine');
   
   pointer++;
   if(pointer >= items) {
@@ -49,7 +50,7 @@ function changeUrl() {
   
   setTimeout(function(){
     changeUrl();
-  }, delay);  
+  }, delay);
   
 }
 
