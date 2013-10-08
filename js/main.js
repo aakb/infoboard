@@ -6,7 +6,7 @@ var urls = {
     {"url": "https://itkdesign.geckoboard.com/dashboards/B0DDF77F2C98F67C"}
   ],
   2: [
-    {"url": "http://geckoboard.etek.dk/statis_pages/important_dates.html"}
+    {"url": "http://geckoboard.etek.dk/static_pages/important_dates.html"}
   ],
   3: [
     {"url": "http://twistori.com/#i_believe"}
