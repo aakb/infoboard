@@ -7,7 +7,7 @@
   padding: 10px;
   color: $white;
   text-align: right;
-  margin-bottom: 20px;
+  margin-bottom: $zen-gutter-width;
 }
 
 .meta-label {
@@ -28,7 +28,7 @@
   li {
     display: inline-block;
     padding: 2px 5px 2px 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 }
 
@@ -36,16 +36,16 @@
   .project-name {
     clear: both;
     float: left;
-    height: 50px;
-    font-size: 150%;
-    min-width: 225px;
-    line-height: 50px;
+    height: 60px;
+    font-size: 120%;
+    min-width: 300px;
+    line-height: 60px;
     padding-left: 10px;
     border-right: 4px solid $light-grey;
   }
   .progress {
     float: left;
-    height: 50px;
+    height: 60px;
     margin-bottom: 10px;
   }
 
