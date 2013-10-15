@@ -8,6 +8,9 @@ var urls = {
   2: [
     {"url": "http://geckoboard.etek.dk/static_pages/current_sprint.html"}
   ],
+  3: [
+    {"url": "http://geckoboard.etek.dk/static_pages/scrum_log.html"}
+  ],
   /*
   Discarded URLs
   http://newsmap.jp/#/b,e,m,n,s,t,w/uk,us/search/all/technology
