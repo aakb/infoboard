@@ -375,9 +375,9 @@ h1.inverted {
 /* line 1, ../sass/modules/_scrum_log.scss */
 .scrum-card {
   margin-bottom: 40px;
-  font-size: 80%;
+  font-size: 85%;
 }
-/* line 6, ../sass/modules/_scrum_log.scss */
+/* line 5, ../sass/modules/_scrum_log.scss */
 .scrum-card.card1 {
   clear: left;
   float: left;
@@ -397,7 +397,7 @@ h1.inverted {
   _overflow-y: visible;
   padding-left: 0;
 }
-/* line 12, ../sass/modules/_scrum_log.scss */
+/* line 11, ../sass/modules/_scrum_log.scss */
 .scrum-card.card2 {
   float: left;
   width: 25%;
@@ -415,7 +415,7 @@ h1.inverted {
   _overflow: hidden;
   _overflow-y: visible;
 }
-/* line 15, ../sass/modules/_scrum_log.scss */
+/* line 14, ../sass/modules/_scrum_log.scss */
 .scrum-card.card3 {
   float: left;
   width: 25%;
@@ -433,7 +433,7 @@ h1.inverted {
   _overflow: hidden;
   _overflow-y: visible;
 }
-/* line 18, ../sass/modules/_scrum_log.scss */
+/* line 17, ../sass/modules/_scrum_log.scss */
 .scrum-card.card4 {
   float: left;
   width: 25%;
@@ -452,22 +452,28 @@ h1.inverted {
   _overflow-y: visible;
   padding-right: 0;
 }
-/* line 24, ../sass/modules/_scrum_log.scss */
+/* line 23, ../sass/modules/_scrum_log.scss */
 .scrum-card .scrum-card-inner {
   background-color: #2a2a2a;
   padding: 10px;
 }
-/* line 29, ../sass/modules/_scrum_log.scss */
+/* line 28, ../sass/modules/_scrum_log.scss */
+.scrum-card h2 {
+  padding: 5px;
+  font-size: 110%;
+}
+/* line 33, ../sass/modules/_scrum_log.scss */
 .scrum-card ul {
   margin-top: 20px;
 }
-/* line 33, ../sass/modules/_scrum_log.scss */
+/* line 37, ../sass/modules/_scrum_log.scss */
 .scrum-card li {
   margin-bottom: 20px;
-  line-height: 1.1em;
+  line-height: 1.2em;
 }
-/* line 37, ../sass/modules/_scrum_log.scss */
+/* line 41, ../sass/modules/_scrum_log.scss */
 .scrum-card li label {
   background-color: #c6c6c6;
   color: #2a2a2a;
+  padding: 2px;
 }

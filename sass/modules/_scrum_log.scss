@@ -1,7 +1,6 @@
 .scrum-card {
   margin-bottom: $zen-gutter-width;
-
-  font-size: 80%;
+  font-size: 85%;
 
   &.card1 {
     @include zen-clear();
@@ -26,17 +25,23 @@
     padding: 10px;
   }
 
+  h2 {
+    padding: 5px;
+    font-size: 110%;
+  }
+
   ul {
     margin-top: 20px;
   }
 
   li {
     margin-bottom: 20px;
-    line-height: 1.1em;
+    line-height: 1.2em;
 
     label {
       background-color: $light-grey;
       color: $dark-grey;
+      padding: 2px;
     }
   }
 }
