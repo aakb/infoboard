@@ -1,6 +1,8 @@
 .scrum-card {
   margin-bottom: $zen-gutter-width;
 
+  font-size: 80%;
+
   &.card1 {
     @include zen-clear();
     @include zen-grid-item(3, 1);
