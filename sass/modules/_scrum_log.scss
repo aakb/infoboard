@@ -1,0 +1,40 @@
+.scrum-card {
+  margin-bottom: $zen-gutter-width;
+
+  &.card1 {
+    @include zen-clear();
+    @include zen-grid-item(3, 1);
+
+    padding-left: 0;
+  }
+  &.card2 {
+    @include zen-grid-item(3, 4);
+  }
+  &.card3 {
+    @include zen-grid-item(3, 7);
+  }
+  &.card4 {
+    @include zen-grid-item(3, 10);
+
+    padding-right: 0;
+  }
+
+  .scrum-card-inner {
+    background-color: $dark-grey;
+    padding: 10px;
+  }
+
+  ul {
+    margin-top: 20px;
+  }
+
+  li {
+    margin-bottom: 20px;
+    line-height: 1.1em;
+
+    label {
+      background-color: $light-grey;
+      color: $dark-grey;
+    }
+  }
+}
