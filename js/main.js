@@ -43,7 +43,6 @@ function changeUrl() {
 	// animate the progress bar
 	$('#progress').stop(true,true);
 	$('#progress').css('width','0px');
-	//$('#progress').delay(1).animate({width: '0%'}, 99, 'swing'); 
   $('#progress').animate({width: '100%'}, delay, 'easeInSine');
   
   pointer++;
@@ -57,6 +56,23 @@ function changeUrl() {
   
 }
 
+function checkKey(e) {
+  e = e || window.event;
+
+  if (e.keyCode == '37') {
+    //Left arrow key pressed.
+  }
+  else if (e.keyCode == '39') {
+    //Right arrow key pressed.
+    changeUrl();
+  }
+}
+
 $(function(){
   changeUrl();
+  document.onkeydown = checkKey;
 });
+
+
+
+
