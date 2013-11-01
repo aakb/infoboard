@@ -59,10 +59,7 @@ function changeUrl() {
 function checkKey(e) {
   e = e || window.event;
 
-  if (e.keyCode == '37') {
-    //Left arrow key pressed.
-  }
-  else if (e.keyCode == '39') {
+  if (e.keyCode == '39') {
     //Right arrow key pressed.
     changeUrl();
   }
