@@ -245,6 +245,14 @@ h1.inverted {
 }
 
 /* line 43, ../sass/framework/_base.scss */
+h2.inverted {
+  background-color: #000;
+  color: #c6c6c6;
+  padding: 5px;
+  font-size: 50px;
+}
+
+/* line 51, ../sass/framework/_base.scss */
 .primary-content {
   float: left;
   width: 66.66667%;
@@ -264,7 +272,7 @@ h1.inverted {
   padding-left: 0;
 }
 
-/* line 48, ../sass/framework/_base.scss */
+/* line 56, ../sass/framework/_base.scss */
 .secondary-content {
   float: right;
   width: 33.33333%;
@@ -489,4 +497,45 @@ h1.inverted {
   padding: 2px;
   display: inline-block;
   margin-right: 5px;
+}
+
+/* line 1, ../sass/modules/_burndown_charts.scss */
+.box-first {
+  clear: left;
+  float: left;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: -50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  *behavior: url("/js/boxsizing.htc");
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  padding-left: 0;
+}
+
+/* line 8, ../sass/modules/_burndown_charts.scss */
+.box-second {
+  float: right;
+  width: 50%;
+  margin-right: 0%;
+  margin-left: -50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  *behavior: url("/js/boxsizing.htc");
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  padding-right: 0;
 }

@@ -1,0 +1,12 @@
+.box-first {
+  @include zen-clear();
+  @include zen-grid-item(6, 1);
+
+  padding-left: 0;
+}
+
+.box-second {
+  @include zen-grid-item(6, 1, right);
+
+  padding-right: 0;
+}

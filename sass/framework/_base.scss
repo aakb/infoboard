@@ -40,6 +40,14 @@ h1.inverted {
   margin-bottom: 20px;
 }
 
+h2.inverted {
+  background-color: #000;
+  color: #c6c6c6;
+  padding: 5px;
+  font-size: 50px;
+}
+
+
 .primary-content {
   @include zen-grid-item(8, 1);
   padding-left: 0;
