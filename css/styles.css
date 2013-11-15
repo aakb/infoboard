@@ -206,7 +206,12 @@ iframe#viewer {
   border: none;
 }
 
-/* line 19, ../sass/framework/_base.scss */
+/* line 18, ../sass/framework/_base.scss */
+p {
+  margin-bottom: 20px;
+}
+
+/* line 23, ../sass/framework/_base.scss */
 #progress {
   position: absolute;
   top: 0;
@@ -219,7 +224,7 @@ iframe#viewer {
   opacity: 0.8;
 }
 
-/* line 30, ../sass/framework/_base.scss */
+/* line 34, ../sass/framework/_base.scss */
 .container {
   *position: relative;
   *zoom: 1;
@@ -235,7 +240,7 @@ iframe#viewer {
   clear: both;
 }
 
-/* line 35, ../sass/framework/_base.scss */
+/* line 39, ../sass/framework/_base.scss */
 h1.inverted {
   background-color: #000;
   color: #c6c6c6;
@@ -244,7 +249,7 @@ h1.inverted {
   margin-bottom: 20px;
 }
 
-/* line 43, ../sass/framework/_base.scss */
+/* line 47, ../sass/framework/_base.scss */
 h2.inverted {
   background-color: #000;
   color: #c6c6c6;
@@ -252,7 +257,7 @@ h2.inverted {
   font-size: 50px;
 }
 
-/* line 51, ../sass/framework/_base.scss */
+/* line 55, ../sass/framework/_base.scss */
 .primary-content {
   float: left;
   width: 66.66667%;
@@ -272,7 +277,7 @@ h2.inverted {
   padding-left: 0;
 }
 
-/* line 56, ../sass/framework/_base.scss */
+/* line 60, ../sass/framework/_base.scss */
 .secondary-content {
   float: right;
   width: 33.33333%;
@@ -350,15 +355,32 @@ h2.inverted {
 .primary-content .meta-label {
   font-size: 150%;
 }
+/* line 26, ../sass/modules/_current_sprint.scss */
+.primary-content .infobox {
+  text-align: left;
+}
+/* line 29, ../sass/modules/_current_sprint.scss */
+.primary-content .infobox .meta-label {
+  margin-bottom: 20px;
+}
 
-/* line 28, ../sass/modules/_current_sprint.scss */
+/* line 36, ../sass/modules/_current_sprint.scss */
 .item-list li {
   display: inline-block;
   padding: 2px 5px 2px 5px;
   margin-bottom: 10px;
 }
+/* line 42, ../sass/modules/_current_sprint.scss */
+.item-list.numbered {
+  list-style: disc;
+  padding-left: 40px;
+}
+/* line 46, ../sass/modules/_current_sprint.scss */
+.item-list.numbered li {
+  display: list-item;
+}
 
-/* line 36, ../sass/modules/_current_sprint.scss */
+/* line 53, ../sass/modules/_current_sprint.scss */
 .project-diagram .project-name {
   clear: both;
   float: left;
@@ -369,13 +391,13 @@ h2.inverted {
   padding-left: 10px;
   border-right: 4px solid #c6c6c6;
 }
-/* line 46, ../sass/modules/_current_sprint.scss */
+/* line 63, ../sass/modules/_current_sprint.scss */
 .project-diagram .progress {
   float: left;
   height: 60px;
   margin-bottom: 10px;
 }
-/* line 52, ../sass/modules/_current_sprint.scss */
+/* line 69, ../sass/modules/_current_sprint.scss */
 .project-diagram .last {
   margin-bottom: 40px;
 }

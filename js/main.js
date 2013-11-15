@@ -3,15 +3,18 @@ var urls = {
     {"url": "https://itkdesign.geckoboard.com/dashboards/B0DDF77F2C98F67C"}
   ],
   1: [
-    {"url": "http://geckoboard.etek.dk/static_pages/important_dates.html"}
+    {"url": "http://geckoboard.etek.dk/static_pages/information.html"}
   ],
   2: [
-    {"url": "http://geckoboard.etek.dk/static_pages/current_sprint.html"}
+    {"url": "http://geckoboard.etek.dk/static_pages/important_dates.html"}
   ],
   3: [
-    {"url": "http://geckoboard.etek.dk/static_pages/scrum_log.html"}
+    {"url": "http://geckoboard.etek.dk/static_pages/current_sprint.html"}
   ],
   4: [
+    {"url": "http://geckoboard.etek.dk/static_pages/scrum_log.html"}
+  ],
+  5: [
     {"url": "http://geckoboard.etek.dk/static_pages/burndown_charts.html"}
   ],
   /*
@@ -23,7 +26,7 @@ var urls = {
 };
 
 var pointer = 0;
-var delay = 100000;
+var delay = 80000;
 //var delay = 10000;
 
 function objectLength(obj) {
