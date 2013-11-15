@@ -68,124 +68,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 */
 /* Zen Grid variables
    ========================================================================== */
-/*
- * Colors
-*/
-/* line 6, ../sass/framework/_colors.scss */
-.green-label {
-  background-color: #1d741f;
-}
-
-/* line 9, ../sass/framework/_colors.scss */
-.yellow-label {
-  background-color: #ff6227;
-}
-
-/* line 12, ../sass/framework/_colors.scss */
-.red-label {
-  background-color: #ff061b;
-}
-
-/* line 17, ../sass/framework/_colors.scss */
-.rasmus-label {
-  background-color: #004979;
-}
-
-/* line 20, ../sass/framework/_colors.scss */
-.thomas-label {
-  background-color: #ff762a;
-}
-
-/* line 23, ../sass/framework/_colors.scss */
-.jesper-label {
-  background-color: #f20a15;
-}
-
-/* line 26, ../sass/framework/_colors.scss */
-.brian-label {
-  background-color: #351d92;
-}
-
-/* line 29, ../sass/framework/_colors.scss */
-.martin-label {
-  background-color: #005f68;
-}
-
-/* line 32, ../sass/framework/_colors.scss */
-.steen-label {
-  background-color: #a92094;
-}
-
-/* line 35, ../sass/framework/_colors.scss */
-.arne-label {
-  background-color: #47a91f;
-}
-
-/* line 40, ../sass/framework/_colors.scss */
-.project-label-1 {
-  background-color: #15a334;
-}
-
-/* line 43, ../sass/framework/_colors.scss */
-.project-label-2 {
-  background-color: #128c2d;
-}
-
-/* line 46, ../sass/framework/_colors.scss */
-.project-label-3 {
-  background-color: #0f7626;
-}
-
-/* line 49, ../sass/framework/_colors.scss */
-.project-label-4 {
-  background-color: #0c5f1e;
-}
-
-/* line 52, ../sass/framework/_colors.scss */
-.project-label-5 {
-  background-color: #094917;
-}
-
-/* line 55, ../sass/framework/_colors.scss */
-.project-label-6 {
-  background-color: #063210;
-}
-
-/* line 58, ../sass/framework/_colors.scss */
-.project-label-7 {
-  background-color: #041b09;
-}
-
-/* line 61, ../sass/framework/_colors.scss */
-.project-label-8 {
-  background-color: #010502;
-}
-
-/* line 65, ../sass/framework/_colors.scss */
-.sec-project-label-1 {
-  background-color: #175543;
-}
-
-/* line 68, ../sass/framework/_colors.scss */
-.sec-project-label-2 {
-  background-color: #124133;
-}
-
-/* line 71, ../sass/framework/_colors.scss */
-.sec-project-label-3 {
-  background-color: #0c2d23;
-}
-
-/* line 74, ../sass/framework/_colors.scss */
-.sec-project-label-4 {
-  background-color: #071914;
-}
-
-/* line 77, ../sass/framework/_colors.scss */
-.sec-project-label-5 {
-  background-color: #010504;
-}
-
 /* line 1, ../sass/framework/_base.scss */
 body {
   color: #fff;
@@ -560,4 +442,122 @@ h2.inverted {
   _overflow: hidden;
   _overflow-y: visible;
   padding-right: 0;
+}
+
+/*
+ * Colors
+*/
+/* line 6, ../sass/framework/_colors.scss */
+.green-label {
+  background-color: #1d741f !important;
+}
+
+/* line 9, ../sass/framework/_colors.scss */
+.yellow-label {
+  background-color: #ff6227 !important;
+}
+
+/* line 12, ../sass/framework/_colors.scss */
+.red-label {
+  background-color: #ff061b !important;
+}
+
+/* line 17, ../sass/framework/_colors.scss */
+.rasmus-label {
+  background-color: #004979;
+}
+
+/* line 20, ../sass/framework/_colors.scss */
+.thomas-label {
+  background-color: #ff762a;
+}
+
+/* line 23, ../sass/framework/_colors.scss */
+.jesper-label {
+  background-color: #f20a15;
+}
+
+/* line 26, ../sass/framework/_colors.scss */
+.brian-label {
+  background-color: #351d92;
+}
+
+/* line 29, ../sass/framework/_colors.scss */
+.martin-label {
+  background-color: #005f68;
+}
+
+/* line 32, ../sass/framework/_colors.scss */
+.steen-label {
+  background-color: #a92094;
+}
+
+/* line 35, ../sass/framework/_colors.scss */
+.arne-label {
+  background-color: #47a91f;
+}
+
+/* line 40, ../sass/framework/_colors.scss */
+.project-label-1 {
+  background-color: #15a334;
+}
+
+/* line 43, ../sass/framework/_colors.scss */
+.project-label-2 {
+  background-color: #128c2d;
+}
+
+/* line 46, ../sass/framework/_colors.scss */
+.project-label-3 {
+  background-color: #0f7626;
+}
+
+/* line 49, ../sass/framework/_colors.scss */
+.project-label-4 {
+  background-color: #0c5f1e;
+}
+
+/* line 52, ../sass/framework/_colors.scss */
+.project-label-5 {
+  background-color: #094917;
+}
+
+/* line 55, ../sass/framework/_colors.scss */
+.project-label-6 {
+  background-color: #063210;
+}
+
+/* line 58, ../sass/framework/_colors.scss */
+.project-label-7 {
+  background-color: #041b09;
+}
+
+/* line 61, ../sass/framework/_colors.scss */
+.project-label-8 {
+  background-color: #010502;
+}
+
+/* line 65, ../sass/framework/_colors.scss */
+.sec-project-label-1 {
+  background-color: #175543;
+}
+
+/* line 68, ../sass/framework/_colors.scss */
+.sec-project-label-2 {
+  background-color: #124133;
+}
+
+/* line 71, ../sass/framework/_colors.scss */
+.sec-project-label-3 {
+  background-color: #0c2d23;
+}
+
+/* line 74, ../sass/framework/_colors.scss */
+.sec-project-label-4 {
+  background-color: #071914;
+}
+
+/* line 77, ../sass/framework/_colors.scss */
+.sec-project-label-5 {
+  background-color: #010504;
 }

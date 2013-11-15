@@ -11,7 +11,6 @@
 @import "configuration/_variables";
 
 // Base styles
-@import "framework/_colors";
 @import "framework/_base";
 
 // Modules
@@ -19,3 +18,6 @@
 @import "modules/_current_sprint";
 @import "modules/_scrum_log";
 @import "modules/_burndown_charts";
+
+// Colors moved to end so it overrule other styles
+@import "framework/_colors";
