@@ -14,9 +14,9 @@ var urls = {
   4: [
     {"url": "http://geckoboard.etek.dk/static_pages/scrum_log.html"}
   ],
-  5: [
+  /*5: [
     {"url": "http://geckoboard.etek.dk/static_pages/burndown_charts.html"}
-  ],
+  ],*/
   /*
   Discarded URLs
   http://newsmap.jp/#/b,e,m,n,s,t,w/uk,us/search/all/technology
