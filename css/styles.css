@@ -497,67 +497,72 @@ h2.inverted {
   background-color: #47a91f;
 }
 
-/* line 40, ../sass/framework/_colors.scss */
+/* line 38, ../sass/framework/_colors.scss */
+.troels-label {
+  background-color: #515839;
+}
+
+/* line 43, ../sass/framework/_colors.scss */
 .project-label-1 {
   background-color: #15a334;
 }
 
-/* line 43, ../sass/framework/_colors.scss */
+/* line 46, ../sass/framework/_colors.scss */
 .project-label-2 {
   background-color: #128c2d;
 }
 
-/* line 46, ../sass/framework/_colors.scss */
+/* line 49, ../sass/framework/_colors.scss */
 .project-label-3 {
   background-color: #0f7626;
 }
 
-/* line 49, ../sass/framework/_colors.scss */
+/* line 52, ../sass/framework/_colors.scss */
 .project-label-4 {
   background-color: #0c5f1e;
 }
 
-/* line 52, ../sass/framework/_colors.scss */
+/* line 55, ../sass/framework/_colors.scss */
 .project-label-5 {
   background-color: #094917;
 }
 
-/* line 55, ../sass/framework/_colors.scss */
+/* line 58, ../sass/framework/_colors.scss */
 .project-label-6 {
   background-color: #063210;
 }
 
-/* line 58, ../sass/framework/_colors.scss */
+/* line 61, ../sass/framework/_colors.scss */
 .project-label-7 {
   background-color: #041b09;
 }
 
-/* line 61, ../sass/framework/_colors.scss */
+/* line 64, ../sass/framework/_colors.scss */
 .project-label-8 {
   background-color: #010502;
 }
 
-/* line 65, ../sass/framework/_colors.scss */
+/* line 68, ../sass/framework/_colors.scss */
 .sec-project-label-1 {
   background-color: #175543;
 }
 
-/* line 68, ../sass/framework/_colors.scss */
+/* line 71, ../sass/framework/_colors.scss */
 .sec-project-label-2 {
   background-color: #124133;
 }
 
-/* line 71, ../sass/framework/_colors.scss */
+/* line 74, ../sass/framework/_colors.scss */
 .sec-project-label-3 {
   background-color: #0c2d23;
 }
 
-/* line 74, ../sass/framework/_colors.scss */
+/* line 77, ../sass/framework/_colors.scss */
 .sec-project-label-4 {
   background-color: #071914;
 }
 
-/* line 77, ../sass/framework/_colors.scss */
+/* line 80, ../sass/framework/_colors.scss */
 .sec-project-label-5 {
   background-color: #010504;
 }
