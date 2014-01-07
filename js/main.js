@@ -5,13 +5,13 @@ var urls = {
   1: [
     {"url": "http://geckoboard.etek.dk/static_pages/information.html"}
   ],
-  2: [
+  /*2: [
     {"url": "http://geckoboard.etek.dk/static_pages/important_dates.html"}
-  ],
-  3: [
+  ],*/
+  2: [
     {"url": "http://geckoboard.etek.dk/static_pages/current_sprint.html"}
   ],
-  4: [
+  3: [
     {"url": "http://geckoboard.etek.dk/static_pages/scrum_log.html"}
   ],
   /*5: [
