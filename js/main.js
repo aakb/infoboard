@@ -44,6 +44,9 @@ function changeUrl() {
   
   var items = objectLength(urls);
   var url = urls[pointer][0].url;
+  if (pointer > 0) {
+    url += '?' + makeid();  
+  }
   $('iframe#viewer').attr('src', url);
 
 	// animate the progress bar
@@ -69,6 +72,16 @@ function checkKey(e) {
     //Right arrow key pressed.
     changeUrl();
   }
+}
+
+// Generate random token
+function makeid() {
+  var text = "";
+  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  for( var i=0; i < 41; i++ ) {
+    text += possible.charAt(Math.floor(Math.random() * possible.length));
+  }
+  return text;
 }
 
 $(function(){
