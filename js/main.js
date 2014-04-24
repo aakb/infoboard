@@ -11,9 +11,9 @@ var urls = {
   3: [
     {"url": "http://geckoboard.etek.dk/static_pages/current_sprint.html"}
   ],
-  /*4: [
-    {"url": "http://geckoboard.etek.dk/static_pages/scrum_log.html"}
-  ],*/
+  4: [
+    {"url": "http://geckoboard.etek.dk/static_pages/nagios.html"}
+  ],
   /*5: [
     {"url": "http://geckoboard.etek.dk/static_pages/burndown_charts.html"}
   ],*/
