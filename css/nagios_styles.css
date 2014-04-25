@@ -1,0 +1,54 @@
+span {
+    display: inline-block;
+    margin: 0.5em;
+}
+
+.warning {
+  background: #98BE31;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+  width: 2%;
+}
+
+.warning:before {
+    content: "?";
+    line-height: 1.2em;
+    margin-left: 8px;
+}
+
+.error {
+  background: #ff061b;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+  width: 2%;
+}
+
+.error:before {
+    line-height: 1.2em;
+    content: "!";
+    margin-left: 12px;
+}
+
+.server {
+    width: 10%;
+}
+
+.service {
+    width: 5%;
+}
+
+.timestamp {
+    width: 10%;
+}
+
+.message {
+    width: 60%;
+}
+
+.odd {
+    background-color: #2a2a2a;
+}
+
+.even {
+    background-color: #404040;
+}
