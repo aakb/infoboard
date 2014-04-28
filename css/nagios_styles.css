@@ -1,0 +1,68 @@
+span {
+    display: inline-block;
+    margin: 0.5em;
+}
+
+.warning:before {
+    content: "?";
+    font-size: .8em;
+    margin-left: 8px;
+}
+
+.warning {
+  margin: 0;
+  width: 30px;
+}
+
+.error:before {
+    content: "!";
+    font-size: .8em;
+    margin-left: 11px;
+}
+
+.error {
+    margin: 0;
+    width: 30px;
+}
+
+.circle-error {
+    margin-left: 10px;
+    padding: 2px;
+    background: #ff061b;
+    display: inline;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.circle-warning {
+    margin-left: 10px;
+    padding: 2px;
+    background: #CCCC00;
+    display: inline;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.server {
+    width: 10%;
+}
+
+.service {
+    width: 5%;
+}
+
+.timestamp {
+    width: 10%;
+}
+
+.message {
+    width: 60%;
+}
+
+.odd {
+    background-color: #2a2a2a;
+}
+
+.even {
+    background-color: #404040;
+}
