@@ -3,30 +3,44 @@ span {
     margin: 0.5em;
 }
 
-.warning {
-  background: #98BE31;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-  width: 2%;
-}
-
 .warning:before {
     content: "?";
-    line-height: 1.2em;
+    font-size: .8em;
     margin-left: 8px;
 }
 
-.error {
-  background: #ff061b;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-  width: 2%;
+.warning {
+  margin: 0;
+  width: 30px;
 }
 
 .error:before {
-    line-height: 1.2em;
     content: "!";
-    margin-left: 12px;
+    font-size: .8em;
+    margin-left: 11px;
+}
+
+.error {
+    margin: 0;
+    width: 30px;
+}
+
+.circle-error {
+    margin-left: 10px;
+    padding: 2px;
+    background: #ff061b;
+    display: inline;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.circle-warning {
+    margin-left: 10px;
+    padding: 2px;
+    background: #CCCC00;
+    display: inline;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
 }
 
 .server {
