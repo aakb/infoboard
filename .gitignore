@@ -1,2 +1,5 @@
 fogbugz_data/cache/*
 fogbugz_data/config.php
+.sass-cache
+config.codekit
+js/min
