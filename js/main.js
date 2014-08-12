@@ -16,7 +16,7 @@ var urls = {
   ],
   4: [
     {"url": "http://geckoboard.etek.dk/static_pages/api-changes.html"}
-  ],
+  ]
   /*5: [
     {"url": "http://geckoboard.etek.dk/static_pages/burndown_charts.html"}
   ],*/
