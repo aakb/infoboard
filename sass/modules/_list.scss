@@ -1,0 +1,31 @@
+.item-list .list-item {
+  background-color: $dark-grey;
+  display: block;
+  font-size: 40px;
+}
+
+.date {
+  width: 15%;
+  display: inline-block;
+  padding: 10px 5px 10px 5px;
+  vertical-align: middle;
+}
+
+.title {
+  display: inline-block;
+  padding: 10px 5px 10px 5px;
+  width: 80%;
+  vertical-align: middle;
+}
+
+.footer {
+  background-color: $dark-grey;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 6em;
+
+  div {
+    padding: .5em;
+  }
+}
