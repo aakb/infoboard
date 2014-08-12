@@ -1,0 +1,42 @@
+<head>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <link rel="stylesheet" href="../css/styles.css" type="text/css">
+  <script type="text/javascript">
+
+    google.load("feeds", "1");
+
+    function initialize() {
+      var feed = new google.feeds.Feed("http://www.rssmix.com/u/4350738/rss.xml");
+      feed.setNumEntries(8);
+      feed.load(function(result) {
+        if (!result.error) {
+          for (var i = 0; i < result.feed.entries.length; i++) {
+            var entry = result.feed.entries[i];
+            var source = entry.content.match("<h3>(.*)</h3>");
+            document.getElementById("feed").innerHTML += '<li class="list-item odd"><span class="date">' + convertDate(Date.parse(entry.publishedDate)) + '</span><span class="title">' + entry.title + ' (' + source[1] + ')</span></li>';
+          }
+        }
+      });
+    }
+    google.setOnLoadCallback(initialize);
+
+    // Date converter
+    function convertDate(inputFormat) {
+      function pad(s) { return (s < 10) ? '0' + s : s; }
+      var d = new Date(inputFormat);
+      return [pad(d.getDate()), pad(d.getMonth()+1), d.getFullYear()].join('/');
+    }
+  </script>
+</head>
+<body>
+<div class="container">
+  <h1 class="inverted">API changes</h1>
+  <div class="calendar">
+    <ul id="feed" class="item-list"></ul>
+  </div>
+</div>
+<div class="footer">
+  <div>Source: https://www.apichangelog.com</div>
+  <div>Watching: Google Maps, Google analytics, Twitter, Github and Flickr </div>
+</div>
+</body>
