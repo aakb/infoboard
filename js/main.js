@@ -14,7 +14,7 @@ var urls = {
   2: [
     {"url": "http://geckoboard.etek.dk/static_pages/nagios.html"}
   ],
-  4: [
+  3: [
     {"url": "http://geckoboard.etek.dk/static_pages/api-changes.html"}
   ]
   /*5: [
